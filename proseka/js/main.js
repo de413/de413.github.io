@@ -22,6 +22,7 @@ $(document).ready(function(){
   $('.colorful_pass').val($.cookie('colorful_pass'));
   $('.challenge_live').val($.cookie('challenge_live'));
   $('.monthly_live_mission').val($.cookie('monthly_live_mission'));
+  parametersOnChange();
 });
 
 function currentDate(){
