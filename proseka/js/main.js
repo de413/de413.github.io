@@ -57,6 +57,7 @@ function daysLeft(){
 
 function parametersOnChange(){
   setCookies();
+  currentDate();
   let currentPoints = $('.monthly_live_mission').val();
   let liveBonusSetting = $('.live_bonus option:selected').index();
   let liveBonus = $('.live_bonus').val()*$('.colorful_pass').val();
